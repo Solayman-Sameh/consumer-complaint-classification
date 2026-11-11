@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "historical_source_archive_sha256": "45e406e64bba3a77dc76a66b096eb54c7b5e5a896be4dd851503e505465c6599",
+  "record_count": 123978,
+  "preprocessing_version": "complaints-v1",
+  "files": {
+    "audit.json": {
+      "sha256": "44323be801de67cd5fd48b3d7f0de65b72e3a7d9e48f611a97bb528fe154bb2c",
+      "size_bytes": 5493
+    },
+    "build_identity.json": {
+      "sha256": "a22c074461d5eadd7a825027c0c8349c8eb2050fbc4291c8cb08905f11774020",
+      "size_bytes": 700
+    },
+    "encoded_inputs.npz": {
+      "sha256": "b52e3c0d6d8e532757a1e97bc698efcc7a6cb745ddf5e0aa11a2c16c662cc8d8",
+      "size_bytes": 25650520
+    },
+    "experiment.json": {
+      "sha256": "3a8db8d3ce4f635c5ffe0fa9084375edf36476517fbe59351c45a5277198801f",
+      "size_bytes": 1107
+    },
+    "labels.json": {
+      "sha256": "dcb480b5bbcaa27b5dae3f12d3d702f7cf397e130eee62cbbe49c0786dd88298",
+      "size_bytes": 313
+    },
+    "preprocessing.json": {
+      "sha256": "adb4b4370aa2a3ae098ba40d1fedb0453fed1c043cf6d6b2e1453758e566b5b9",
+      "size_bytes": 4856
+    },
+    "records.csv.gz": {
+      "sha256": "e7dacef43d1d6292722e906ea701fd075ac4e8fd95e5eed9569d48ad2d46b8d5",
+      "size_bytes": 20801633
+    },
+    "source_row_ledger.csv.gz": {
+      "sha256": "61865f29f11fb4046d9b077274de36cbd9927755e087552db928886f94a22bb5",
+      "size_bytes": 899819
+    },
+    "tokenizer/config.json": {
+      "sha256": "0a275cc2c2a7b8adc996ba0f7f8955968b6d9cd5ad144327b441425a4ee5cf67",
+      "size_bytes": 478
+    },
+    "tokenizer/special_tokens_map.json": {
+      "sha256": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+      "size_bytes": 125
+    },
+    "tokenizer/tokenizer.json": {
+      "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+      "size_bytes": 711396
+    },
+    "tokenizer/tokenizer_config.json": {
+      "sha256": "a3c9410f27554c6e26af779fd147e536c6c5f9e5cb0e6b8f38ddaa25e1b0f6af",
+      "size_bytes": 1227
+    },
+    "tokenizer/vocab.txt": {
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "size_bytes": 231508
+    },
+    "vocabulary.json": {
+      "sha256": "8219899ecc5e37616d87698d93ab27154bbeda5aa1c9744d78503776717af7e0",
+      "size_bytes": 610540
+    }
+  }
+}

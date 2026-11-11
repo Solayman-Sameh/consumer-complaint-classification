@@ -1,0 +1,21 @@
+{
+  "model": "gru",
+  "signature": "bd457ca03f08e8a79677243e610ca2393dc21aefe70fde9dc10db0f32b83c23a",
+  "verification": false,
+  "status": "complete",
+  "best_epoch": 7,
+  "epochs_run": 8,
+  "training_seconds_including_initialization": 133.89829963700004,
+  "validation_macro_f1": 0.83158679827811,
+  "validation_accuracy": 0.844813679625746,
+  "checkpoint_bytes": 15761873,
+  "checkpoint_sha256": "103d22ab78d4f1e3d063b41910fa478dad1683a1c5afb2cc57c8002c8e7cdbbc",
+  "trainable_parameters": 3939717,
+  "device": "cuda:0",
+  "peak_allocated_gpu_bytes": 131891712,
+  "batch_size": 128,
+  "gradient_accumulation_steps": 1,
+  "amp": true,
+  "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "inference_batch1_median_ms": 1.6360564999331473
+}

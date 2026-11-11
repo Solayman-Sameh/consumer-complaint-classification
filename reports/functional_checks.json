@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "verification_only": true,
+  "models_checked": [
+    "rnn",
+    "lstm",
+    "gru",
+    "distilbert"
+  ],
+  "note": "Tiny checks only; verification weights discarded."
+}

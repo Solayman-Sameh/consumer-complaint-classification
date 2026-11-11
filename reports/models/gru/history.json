@@ -1,0 +1,74 @@
+[
+  {
+    "epoch": 1,
+    "training_loss": 0.6826172632640687,
+    "validation_loss": 0.49261475352966083,
+    "validation_macro_f1": 0.8037616315966479,
+    "validation_accuracy": 0.8139216002581061,
+    "epoch_seconds": 17.09308186699991,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 2,
+    "training_loss": 0.4460263646875379,
+    "validation_loss": 0.44454920636991946,
+    "validation_macro_f1": 0.8175211428696425,
+    "validation_accuracy": 0.8248911114695918,
+    "epoch_seconds": 16.290871730000163,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 3,
+    "training_loss": 0.3878543831187447,
+    "validation_loss": 0.4420836789685668,
+    "validation_macro_f1": 0.8229288080814159,
+    "validation_accuracy": 0.831343765123407,
+    "epoch_seconds": 16.486005116999877,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 4,
+    "training_loss": 0.3397634809694884,
+    "validation_loss": 0.44886670441163395,
+    "validation_macro_f1": 0.827066555625413,
+    "validation_accuracy": 0.8394902403613486,
+    "epoch_seconds": 15.739021247999972,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 5,
+    "training_loss": 0.2964262939828209,
+    "validation_loss": 0.47261306247245266,
+    "validation_macro_f1": 0.8283758547164595,
+    "validation_accuracy": 0.840700112921439,
+    "epoch_seconds": 16.457310381999832,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 6,
+    "training_loss": 0.2556757104590255,
+    "validation_loss": 0.4801824629142605,
+    "validation_macro_f1": 0.8260570281242169,
+    "validation_accuracy": 0.8362639135344411,
+    "epoch_seconds": 17.08983336700021,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 7,
+    "training_loss": 0.2158493673785955,
+    "validation_loss": 0.5207794640091038,
+    "validation_macro_f1": 0.83158679827811,
+    "validation_accuracy": 0.844813679625746,
+    "epoch_seconds": 15.735893938000117,
+    "learning_rate": 0.001
+  },
+  {
+    "epoch": 8,
+    "training_loss": 0.1833819095007943,
+    "validation_loss": 0.5565741612698476,
+    "validation_macro_f1": 0.8270794254767683,
+    "validation_accuracy": 0.8404581384094209,
+    "epoch_seconds": 15.891628257000093,
+    "learning_rate": 0.001
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "handle": "shashwatwork/consume-complaints-dataset-fo-nlp/versions/1",
+  "source_csv": "/kaggle/input/datasets/shashwatwork/consume-complaints-dataset-fo-nlp/complaints_processed.csv",
+  "sha256": "a120ac8450cb3839bf0085bbae68f7c0f3b5351302cafd0bc85ae27a251010b4",
+  "authentication": "No explicit login/API key supplied by this notebook; Kaggle session or public access used",
+  "kagglehub_version": "1.0.3"
+}

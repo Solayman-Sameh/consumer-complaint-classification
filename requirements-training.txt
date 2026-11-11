@@ -1,0 +1,15 @@
+# Training and experimentation dependencies (reproducing Kaggle dual T4 GPU runs)
+torch>=2.3,<3
+transformers==4.57.1
+tokenizers==0.22.2
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+safetensors==0.8.0
+kagglehub>=0.2
+matplotlib>=3.8
+seaborn>=0.13
+
+# Preparation reference fingerprints require these exact library versions.
+# Keep Kaggle's CUDA-enabled PyTorch; see reports/environment.json for the historical run.
+huggingface-hub==0.36.2

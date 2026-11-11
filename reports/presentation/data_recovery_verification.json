@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "method": "SHA-256 equality with the completed run's prepared_input_reference.json",
+  "completed_preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "verified_files": {
+    "records.csv.gz": "e7dacef43d1d6292722e906ea701fd075ac4e8fd95e5eed9569d48ad2d46b8d5",
+    "vocabulary.json": "8219899ecc5e37616d87698d93ab27154bbeda5aa1c9744d78503776717af7e0",
+    "encoded_inputs.npz": "b52e3c0d6d8e532757a1e97bc698efcc7a6cb745ddf5e0aa11a2c16c662cc8d8"
+  },
+  "training_records": 99182,
+  "examples": 10,
+  "note": "Older container-level preparation metadata differs; all reused experiment data bytes match exactly."
+}

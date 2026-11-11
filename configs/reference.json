@@ -1,0 +1,205 @@
+{
+  "audit": {
+    "source": "shashwatwork/consume-complaints-dataset-fo-nlp",
+    "source_version": 1,
+    "retrieved_date": "2026-11-07",
+    "source_archive_sha256": "45e406e64bba3a77dc76a66b096eb54c7b5e5a896be4dd851503e505465c6599",
+    "source_csv_sha256": "a120ac8450cb3839bf0085bbae68f7c0f3b5351302cafd0bc85ae27a251010b4",
+    "source_rows": 162421,
+    "source_columns": [
+      "Unnamed: 0",
+      "product",
+      "narrative"
+    ],
+    "source_class_counts": {
+      "credit_reporting": 91179,
+      "debt_collection": 23150,
+      "mortgages_and_loans": 18990,
+      "credit_card": 15566,
+      "retail_banking": 13536
+    },
+    "official_splits": "None: one CSV with no split column",
+    "normalized_conflicting_groups": 172,
+    "recurrent_conflicting_groups_after_source_dedup": 10,
+    "exclusion_flow": [
+      {
+        "stage": "source",
+        "remaining": 162421,
+        "excluded": 0
+      },
+      {
+        "stage": "blank_text_or_label",
+        "remaining": 162411,
+        "excluded": 10
+      },
+      {
+        "stage": "conflicting_source_text_labels",
+        "remaining": 159134,
+        "excluded": 3277
+      },
+      {
+        "stage": "duplicate_source_text",
+        "remaining": 124300,
+        "excluded": 34834
+      },
+      {
+        "stage": "empty_after_recurrent_cleaning",
+        "remaining": 124300,
+        "excluded": 0
+      },
+      {
+        "stage": "conflicting_recurrent_text_labels",
+        "remaining": 124278,
+        "excluded": 22
+      },
+      {
+        "stage": "duplicate_recurrent_text",
+        "remaining": 123978,
+        "excluded": 300
+      }
+    ],
+    "retained_rows": 123978,
+    "labels": [
+      "credit_card",
+      "credit_reporting",
+      "debt_collection",
+      "mortgages_and_loans",
+      "retail_banking"
+    ],
+    "split_counts": {
+      "train": 99182,
+      "validation": 12398,
+      "test": 12398
+    },
+    "class_counts_by_split": {
+      "test": {
+        "credit_card": 1496,
+        "credit_reporting": 5589,
+        "debt_collection": 2097,
+        "mortgages_and_loans": 1870,
+        "retail_banking": 1346
+      },
+      "train": {
+        "credit_card": 11966,
+        "credit_reporting": 44712,
+        "debt_collection": 16777,
+        "mortgages_and_loans": 14959,
+        "retail_banking": 10768
+      },
+      "validation": {
+        "credit_card": 1496,
+        "credit_reporting": 5590,
+        "debt_collection": 2097,
+        "mortgages_and_loans": 1869,
+        "retail_banking": 1346
+      }
+    },
+    "lengths": {
+      "train": {
+        "records": 99182,
+        "recurrent_length_percentiles": {
+          "50": 51.0,
+          "90": 158.0,
+          "95": 222.0,
+          "99": 450.0,
+          "100": 2432.0
+        },
+        "transformer_length_percentiles": {
+          "50": 66.0,
+          "90": 202.0,
+          "95": 282.0,
+          "99": 572.0,
+          "100": 3312.0
+        },
+        "recurrent_truncation_fraction": 0.03660946542719445,
+        "transformer_truncation_fraction": 0.06084773446794781,
+        "recurrent_unknown_token_fraction": 0.0015161892173136118
+      },
+      "validation": {
+        "records": 12398,
+        "recurrent_length_percentiles": {
+          "50": 50.0,
+          "90": 154.0,
+          "95": 213.0,
+          "99": 399.0,
+          "100": 2344.0
+        },
+        "transformer_length_percentiles": {
+          "50": 66.0,
+          "90": 198.0,
+          "95": 272.0,
+          "99": 495.1200000000026,
+          "100": 3054.0
+        },
+        "recurrent_truncation_fraction": 0.03355379899983869,
+        "transformer_truncation_fraction": 0.056864010324245845,
+        "recurrent_unknown_token_fraction": 0.0036775013931692243
+      },
+      "test": {
+        "records": 12398,
+        "recurrent_length_percentiles": {
+          "50": 51.0,
+          "90": 160.0,
+          "95": 226.0,
+          "99": 434.1200000000026,
+          "100": 1826.0
+        },
+        "transformer_length_percentiles": {
+          "50": 66.0,
+          "90": 206.0,
+          "95": 286.0,
+          "99": 550.0,
+          "100": 2175.0
+        },
+        "recurrent_truncation_fraction": 0.037102758509437006,
+        "transformer_truncation_fraction": 0.06202613324729795,
+        "recurrent_unknown_token_fraction": 0.003390192770317282
+      }
+    },
+    "vocabulary_size_including_specials": 30000,
+    "training_distinct_words": 41519,
+    "training_class_weights": {
+      "credit_card": 1.6577302356677253,
+      "credit_reporting": 0.44364823760959027,
+      "debt_collection": 1.1823567979972582,
+      "mortgages_and_loans": 1.3260512066314594,
+      "retail_banking": 1.8421619613670133
+    },
+    "duplicate_overlap_between_splits": {
+      "normalized_source_text": 0,
+      "recurrent_cleaned_text": 0,
+      "recurrent_encoded_input": 0,
+      "transformer_encoded_input": 0
+    },
+    "split_policy": "10 StratifiedGroupKFold folds with seed 42: fold 0 validation, fold 1 test, other folds train. Truncated-input equivalence groups stay together.",
+    "split_group_count": 123761,
+    "multirow_split_groups": 123,
+    "encoded_collision_grouping_passes": 3,
+    "source_preprocessing_evidence": {
+      "uppercase_narratives": 0,
+      "digit_narratives": 0,
+      "non_lowercase_letter_or_whitespace_narratives": 0,
+      "raw_narratives_available": false
+    },
+    "near_duplicate_policy": "Exact normalized and recurrent-cleaned duplicates removed. Semantic/paraphrase near-duplicates are not guaranteed absent.",
+    "upstream_limitations": "Unknown upstream cleaning/label consolidation; no raw text or original complaint identifiers. No original-data linkage is invented.",
+    "training_status": "NOT TRAINED",
+    "preparation_versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "transformers": "4.57.1",
+      "tokenizers": "0.22.2"
+    }
+  },
+  "records_csv_sha256": "1a53c0ca7ee3714a598cbd0e88f4e71ce041ac3b9beb49c8230948efaee5ef83",
+  "vocabulary_sha256": "7ecf093b670a1a18a1039ba113de8055391c8f263207d882ce0042be9255347e",
+  "npy_sha256": {
+    "recurrent_ids.npy": "15db89b50a21bac7480451a1528cd7cca1ad1bab980384596305e0c99072a032",
+    "recurrent_lengths.npy": "52daa32be4c3afbff332e6dd7dd91adfe817e7a505a0c9bd73b8dba779c72b59",
+    "transformer_ids.npy": "486930d211ea8d02e1d124986526589291516185f5ab3e9cf02554f8530ed858",
+    "transformer_lengths.npy": "f9a6bb1a409b2777d58c578fdd83e33b1c9c35cdfca6a55a938a8db771d246d7",
+    "recurrent_full_lengths.npy": "7fc47872eb6bfea9afc2c8b828dd6b7c85c0da3fa7113b285f3da58d7ff76a11",
+    "transformer_full_lengths.npy": "32e9f4fa3626e3c1a87d20e69636ba30448628eb5ff543302550920be4eb5cf8"
+  }
+}

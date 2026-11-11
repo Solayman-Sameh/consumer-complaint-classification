@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-10T18:26:51.507042+00:00",
+  "repo_id": "Solayman-Sameh/consumer-complaint-classifier",
+  "revision": "55bc9b63d53a9692680e178bc67434f916810d4d",
+  "load_call": "AutoModelForSequenceClassification.from_pretrained(\"Solayman-Sameh/consumer-complaint-classifier\")",
+  "weights_sha256": "90a674896ce8d16c5de9f91ad996538c457d3480fb4966a689a2d79e3bd83f12",
+  "labels_match_local_bundle": true,
+  "compared_examples": 5,
+  "max_probability_difference": 1.3969838619232178e-09,
+  "weights_transfer": "Reused local bytes after comparison with published LFS SHA-256; repository metadata, config and tokenizer fetched online.",
+  "publication_performed": false
+}

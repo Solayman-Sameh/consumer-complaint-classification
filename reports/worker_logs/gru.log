@@ -1,0 +1,11 @@
+Worker gru: assigned GPU 1; visible device cuda:0 = Tesla T4
+
+gru pilot: 0.020 s/batch; about 2.0 min for 8 training epochs, excluding validation/downloads.
+gru epoch 1: train loss 0.6826; val loss 0.4926; val macro F1 0.8038
+gru epoch 2: train loss 0.4460; val loss 0.4445; val macro F1 0.8175
+gru epoch 3: train loss 0.3879; val loss 0.4421; val macro F1 0.8229
+gru epoch 4: train loss 0.3398; val loss 0.4489; val macro F1 0.8271
+gru epoch 5: train loss 0.2964; val loss 0.4726; val macro F1 0.8284
+gru epoch 6: train loss 0.2557; val loss 0.4802; val macro F1 0.8261
+gru epoch 7: train loss 0.2158; val loss 0.5208; val macro F1 0.8316
+gru epoch 8: train loss 0.1834; val loss 0.5566; val macro F1 0.8271

@@ -1,0 +1,21 @@
+{
+  "model": "lstm",
+  "signature": "bd457ca03f08e8a79677243e610ca2393dc21aefe70fde9dc10db0f32b83c23a",
+  "verification": false,
+  "status": "complete",
+  "best_epoch": 7,
+  "epochs_run": 8,
+  "training_seconds_including_initialization": 137.65659835299994,
+  "validation_macro_f1": 0.8293969335633807,
+  "validation_accuracy": 0.84223261816422,
+  "checkpoint_bytes": 15893969,
+  "checkpoint_sha256": "dbc56078e88003e41e995e187a77e6e5fdd6c11a22410d53ee288db8b6b1ad43",
+  "trainable_parameters": 3972741,
+  "device": "cuda:0",
+  "peak_allocated_gpu_bytes": 131879424,
+  "batch_size": 128,
+  "gradient_accumulation_steps": 1,
+  "amp": true,
+  "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "inference_batch1_median_ms": 1.6615414998568667
+}

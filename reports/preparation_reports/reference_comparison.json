@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "differences": {},
+  "method": "Canonical record CSV, vocabulary, NPY array bytes and audited counts",
+  "reference_source_csv_sha256": "a120ac8450cb3839bf0085bbae68f7c0f3b5351302cafd0bc85ae27a251010b4"
+}

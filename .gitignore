@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-app/
+.qa/
+dist/
+.env
+deployment_model/model/*.safetensors
+artifacts/checkpoints/
+codex-zip/

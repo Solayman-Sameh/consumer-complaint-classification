@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-10T18:28:38.014264+00:00",
+  "environment": {
+    "python": "3.11.15",
+    "platform": "win32",
+    "isolated_venv": true,
+    "host_site_packages_on_sys_path": false,
+    "torch_reuse": "Only torch/functorch/torchgen loaded from existing local installation through a restricted importer; other dependencies installed in fresh venv.",
+    "versions": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.57.1",
+      "gradio": "5.49.1",
+      "huggingface-hub": "0.36.2",
+      "tokenizers": "0.22.2",
+      "numpy": "2.3.5"
+    }
+  },
+  "source_hash_policy": "UTF-8 text with normalized LF newlines",
+  "source_sha256": {
+    "app.py": "71e8d4a57e4ed03702f967102954c30d23fb75008c121945dd29327dad2b0db4",
+    "src/complaints/inference.py": "c7ec46b49439fa47301cd791aa472a4163978ba455ad2e29dfef3d042c53f9cb",
+    "src/complaints/text.py": "9e2094ed22a8e2a45f62583c66bfd541cd5f55d5da93e67735bf2c918b93c0c6",
+    "src/complaints/models.py": "376e5289d1ad7589f89fcd474d0ebe382b43f4727256b228f2b461ab931e3520"
+  },
+  "offline_model_loading": true,
+  "model_weights_downloaded": false,
+  "natural_examples": [
+    {
+      "input": "My credit report shows an account that I never opened. I disputed it but it is still listed.",
+      "expected_category": "credit_reporting",
+      "predicted_category": "credit_reporting",
+      "probability": 0.8514634966850281,
+      "probabilities": {
+        "credit_card": 0.005605055019259453,
+        "credit_reporting": 0.8514634966850281,
+        "debt_collection": 0.13555701076984406,
+        "mortgages_and_loans": 0.005967548582702875,
+        "retail_banking": 0.0014069345779716969
+      },
+      "matches_expected": true
+    },
+    {
+      "input": "A debt collector keeps calling about a debt that does not belong to me.",
+      "expected_category": "debt_collection",
+      "predicted_category": "debt_collection",
+      "probability": 0.9813060164451599,
+      "probabilities": {
+        "credit_card": 0.0018209248082712293,
+        "credit_reporting": 0.010500307194888592,
+        "debt_collection": 0.9813060164451599,
+        "mortgages_and_loans": 0.005219809245318174,
+        "retail_banking": 0.0011529471958056092
+      },
+      "matches_expected": true
+    },
+    {
+      "input": "My mortgage servicer applied my payment incorrectly and charged a late fee.",
+      "expected_category": "mortgages_and_loans",
+      "predicted_category": "mortgages_and_loans",
+      "probability": 0.9782735705375671,
+      "probabilities": {
+        "credit_card": 0.0005009244778193533,
+        "credit_reporting": 0.015196425840258598,
+        "debt_collection": 0.005458632949739695,
+        "mortgages_and_loans": 0.9782735705375671,
+        "retail_banking": 0.0005703653441742063
+      },
+      "matches_expected": true
+    },
+    {
+      "input": "My credit card was charged twice and the card provider has not resolved my dispute.",
+      "expected_category": "credit_card",
+      "predicted_category": "credit_card",
+      "probability": 0.7737125158309937,
+      "probabilities": {
+        "credit_card": 0.7737125158309937,
+        "credit_reporting": 0.15872086584568024,
+        "debt_collection": 0.05805562809109688,
+        "mortgages_and_loans": 0.0023460581433027983,
+        "retail_banking": 0.007165004964917898
+      },
+      "matches_expected": true
+    },
+    {
+      "input": "My bank account was frozen and I cannot access my deposited funds.",
+      "expected_category": "retail_banking",
+      "predicted_category": "retail_banking",
+      "probability": 0.8999801874160767,
+      "probabilities": {
+        "credit_card": 0.0419636107981205,
+        "credit_reporting": 0.029022887349128723,
+        "debt_collection": 0.017086245119571686,
+        "mortgages_and_loans": 0.011947105638682842,
+        "retail_banking": 0.8999801874160767
+      },
+      "matches_expected": true
+    }
+  ],
+  "natural_expected_matches": 5,
+  "invalid_input_checks": [
+    {
+      "case": "blank",
+      "rejected": true,
+      "message": "Enter a complaint before classifying."
+    },
+    {
+      "case": "whitespace",
+      "rejected": true,
+      "message": "Enter a complaint before classifying."
+    },
+    {
+      "case": "punctuation",
+      "rejected": true,
+      "message": "Enter a complaint containing words."
+    },
+    {
+      "case": "numbers_only",
+      "rejected": true,
+      "message": "Enter a complaint containing words."
+    },
+    {
+      "case": "over_limit",
+      "rejected": true,
+      "message": "Please shorten the complaint to 20,000 characters or fewer."
+    },
+    {
+      "case": "non_string",
+      "rejected": true,
+      "message": "Enter a complaint before classifying."
+    }
+  ],
+  "gradio_api_checks": [
+    {
+      "case": "credit_reporting",
+      "status": "passed"
+    },
+    {
+      "case": "debt_collection",
+      "status": "passed"
+    },
+    {
+      "case": "mortgages_and_loans",
+      "status": "passed"
+    },
+    {
+      "case": "credit_card",
+      "status": "passed"
+    },
+    {
+      "case": "retail_banking",
+      "status": "passed"
+    },
+    {
+      "case": "invalid_input_clears_prediction",
+      "status": "passed"
+    },
+    {
+      "case": "invalid_input_clears_prediction",
+      "status": "passed"
+    },
+    {
+      "case": "invalid_input_clears_prediction",
+      "status": "passed"
+    },
+    {
+      "case": "invalid_input_clears_prediction",
+      "status": "passed"
+    },
+    {
+      "case": "long_input_truncation_notice",
+      "status": "passed"
+    },
+    {
+      "case": "unrelated_text_forced_choice_documented",
+      "status": "passed"
+    }
+  ],
+  "validation_reload_examples": 5,
+  "reload_source": "fixture",
+  "max_probability_difference": 1.1920928955078125e-07,
+  "cpu_median_ms": 41.2504999999328,
+  "cpu_p95_ms": 89.22159000048849,
+  "timing_note": "Ten calls, batch one, two CPU threads, including preprocessing; local hardware only."
+}

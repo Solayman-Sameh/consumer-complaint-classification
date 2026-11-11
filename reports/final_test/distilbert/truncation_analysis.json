@@ -1,0 +1,22 @@
+{
+  "recurrent_truncated": {
+    "False": {
+      "records": 11938,
+      "accuracy": 0.8544982409113755
+    },
+    "True": {
+      "records": 460,
+      "accuracy": 0.85
+    }
+  },
+  "transformer_truncated": {
+    "False": {
+      "records": 11629,
+      "accuracy": 0.8545876687591366
+    },
+    "True": {
+      "records": 769,
+      "accuracy": 0.8504551365409623
+    }
+  }
+}

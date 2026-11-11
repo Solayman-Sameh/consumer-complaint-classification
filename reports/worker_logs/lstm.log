@@ -1,0 +1,11 @@
+Worker lstm: assigned GPU 1; visible device cuda:0 = Tesla T4
+
+lstm pilot: 0.020 s/batch; about 2.1 min for 8 training epochs, excluding validation/downloads.
+lstm epoch 1: train loss 0.8238; val loss 0.6025; val macro F1 0.7711
+lstm epoch 2: train loss 0.5517; val loss 0.5103; val macro F1 0.8082
+lstm epoch 3: train loss 0.4673; val loss 0.4791; val macro F1 0.8146
+lstm epoch 4: train loss 0.4086; val loss 0.4729; val macro F1 0.8193
+lstm epoch 5: train loss 0.3665; val loss 0.4753; val macro F1 0.8204
+lstm epoch 6: train loss 0.3302; val loss 0.4845; val macro F1 0.8246
+lstm epoch 7: train loss 0.2935; val loss 0.5100; val macro F1 0.8294
+lstm epoch 8: train loss 0.2613; val loss 0.5014; val macro F1 0.8249

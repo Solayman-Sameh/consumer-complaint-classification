@@ -1,0 +1,16 @@
+{
+  "label2id": {
+    "credit_card": 0,
+    "credit_reporting": 1,
+    "debt_collection": 2,
+    "mortgages_and_loans": 3,
+    "retail_banking": 4
+  },
+  "id2label": {
+    "0": "credit_card",
+    "1": "credit_reporting",
+    "2": "debt_collection",
+    "3": "mortgages_and_loans",
+    "4": "retail_banking"
+  }
+}

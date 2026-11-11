@@ -1,0 +1,21 @@
+{
+  "model": "distilbert",
+  "signature": "bd457ca03f08e8a79677243e610ca2393dc21aefe70fde9dc10db0f32b83c23a",
+  "verification": false,
+  "status": "complete",
+  "best_epoch": 3,
+  "epochs_run": 3,
+  "training_seconds_including_initialization": 2486.612861979,
+  "validation_macro_f1": 0.8427680488476785,
+  "validation_accuracy": 0.8504597515728344,
+  "checkpoint_bytes": 267863151,
+  "checkpoint_sha256": "5bee0984de5b4dcca8e54191d71a38bfdc386da1c80c9847b4933e709d044964",
+  "trainable_parameters": 66957317,
+  "device": "cuda:0",
+  "peak_allocated_gpu_bytes": 2595739136,
+  "batch_size": 16,
+  "gradient_accumulation_steps": 2,
+  "amp": true,
+  "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "inference_batch1_median_ms": 5.638103499904901
+}

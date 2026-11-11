@@ -1,0 +1,63 @@
+{
+  "signature": "bd457ca03f08e8a79677243e610ca2393dc21aefe70fde9dc10db0f32b83c23a",
+  "verification": false,
+  "identity": {
+    "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+    "config": {
+      "schema_version": 1,
+      "seed": 42,
+      "models": [
+        "rnn",
+        "lstm",
+        "gru",
+        "distilbert"
+      ],
+      "selection_metric": "validation_macro_f1",
+      "tie_tolerance": 0.001,
+      "tie_priority": [
+        "rnn",
+        "gru",
+        "lstm",
+        "distilbert"
+      ],
+      "recurrent_max_length": 256,
+      "transformer_max_length": 256,
+      "vocabulary_cap": 30000,
+      "embedding_dim": 128,
+      "hidden_dim": 128,
+      "dropout": 0.3,
+      "recurrent_batch_size": 128,
+      "transformer_batch_size": 16,
+      "eval_batch_size": 64,
+      "gradient_accumulation_steps": 2,
+      "recurrent_epochs": 8,
+      "transformer_epochs": 3,
+      "patience": 2,
+      "min_delta": 0.0001,
+      "recurrent_lr": 0.001,
+      "transformer_lr": 2e-05,
+      "transformer_weight_decay": 0.01,
+      "warmup_ratio": 0.1,
+      "max_grad_norm": 1.0,
+      "mixed_precision": true,
+      "num_workers": 0,
+      "class_weight_policy": "balanced_training_only",
+      "transformer_checkpoint": "distilbert/distilbert-base-uncased",
+      "transformer_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+      "truncation_policy": "head",
+      "final_test": true,
+      "resume_interrupted": false,
+      "benchmark_repeats": 30
+    },
+    "code_sha256": "a449e069b23447b2dd14f7fee5615d1ec4a55de20b47a915db4840abdc0081c4",
+    "versions": {
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.1",
+      "tokenizers": "0.22.2",
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "safetensors": "0.8.0"
+    }
+  }
+}

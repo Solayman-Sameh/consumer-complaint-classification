@@ -1,0 +1,70 @@
+{
+  "measured_at_utc": "2026-11-10T18:05:54.877367+00:00",
+  "device": "cpu",
+  "threads": 2,
+  "batch_size": 1,
+  "measured_calls_per_stratum": 30,
+  "warmup_calls_per_stratum": 3,
+  "includes_preprocessing_tokenization_forward_softmax": true,
+  "excludes_model_loading_and_HTTP": true,
+  "texts": {
+    "short": [
+      "My bank froze my checking account and I cannot access my funds.",
+      "A debt collector is calling about a debt that is not mine.",
+      "My credit card has an unauthorized charge."
+    ],
+    "long": [
+      "My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. My bank froze my checking account and I cannot access my funds. ",
+      "A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. A debt collector is calling about a debt that is not mine. ",
+      "My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. My credit card has an unauthorized charge. "
+    ]
+  },
+  "models": {
+    "rnn": {
+      "short": {
+        "median_ms": 0.519550000262825,
+        "p95_ms": 1.0846700004549343
+      },
+      "long": {
+        "median_ms": 12.714150000192603,
+        "p95_ms": 13.534825000124329
+      }
+    },
+    "lstm": {
+      "short": {
+        "median_ms": 0.7096999997884268,
+        "p95_ms": 0.9997850001127517
+      },
+      "long": {
+        "median_ms": 21.353050000016083,
+        "p95_ms": 23.484665000296445
+      }
+    },
+    "gru": {
+      "short": {
+        "median_ms": 0.6430499997804873,
+        "p95_ms": 0.9606850001091507
+      },
+      "long": {
+        "median_ms": 17.250999999760097,
+        "p95_ms": 19.452594999529538
+      }
+    },
+    "distilbert": {
+      "short": {
+        "median_ms": 20.785850000265782,
+        "p95_ms": 23.883510000132443
+      },
+      "long": {
+        "median_ms": 132.9931499999475,
+        "p95_ms": 140.36038000058397
+      }
+    }
+  },
+  "versions": {
+    "torch": "2.5.1+cu121"
+  },
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "limitation": "One local machine, synthetic complaints, one run; not a hosted service guarantee."
+}

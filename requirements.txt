@@ -1,0 +1,9 @@
+# Application dependencies. Training uses requirements-training.txt.
+torch==2.5.1
+transformers==4.57.1
+tokenizers==0.22.2
+huggingface-hub==0.36.2
+safetensors==0.8.0
+numpy==2.3.5
+gradio==5.49.1
+httpx[socks]>=0.24,<1

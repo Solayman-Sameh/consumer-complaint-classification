@@ -1,0 +1,23 @@
+{
+  "signature": "bd457ca03f08e8a79677243e610ca2393dc21aefe70fde9dc10db0f32b83c23a",
+  "selected_model": "distilbert",
+  "selection_metric": "validation_macro_f1",
+  "best_validation_macro_f1": 0.8427680488476785,
+  "selected_validation_macro_f1": 0.8427680488476785,
+  "tie_tolerance": 0.001,
+  "tie_priority": [
+    "rnn",
+    "gru",
+    "lstm",
+    "distilbert"
+  ],
+  "rationale": "Highest validation macro F1; within 0.001 prefer the smaller architecture in the predeclared order.",
+  "checkpoint_sha256": {
+    "rnn": "51691866db744a82996902cb1645fb47a488057aa8411c096ebcda81b2d2d664",
+    "lstm": "dbc56078e88003e41e995e187a77e6e5fdd6c11a22410d53ee288db8b6b1ad43",
+    "gru": "103d22ab78d4f1e3d063b41910fa478dad1683a1c5afb2cc57c8002c8e7cdbbc",
+    "distilbert": "5bee0984de5b4dcca8e54191d71a38bfdc386da1c80c9847b4933e709d044964"
+  },
+  "test_outcomes_used_for_selection": false,
+  "status": "frozen_before_test"
+}

@@ -1,0 +1,43 @@
+{
+  "strategy": "independent models; one process per assigned GPU",
+  "gpu_ids": [
+    "0",
+    "1"
+  ],
+  "assignments": [
+    {
+      "model": "distilbert",
+      "assigned_gpu": "0",
+      "started_seconds": 0.0009005480001178512,
+      "log": "/kaggle/working/consumer_complaints_run/worker_logs/distilbert.log",
+      "elapsed_seconds": 2615.923146176,
+      "status": "complete"
+    },
+    {
+      "model": "rnn",
+      "assigned_gpu": "1",
+      "started_seconds": 0.0024351270001261582,
+      "log": "/kaggle/working/consumer_complaints_run/worker_logs/rnn.log",
+      "elapsed_seconds": 104.05222291299992,
+      "status": "complete"
+    },
+    {
+      "model": "lstm",
+      "assigned_gpu": "1",
+      "started_seconds": 105.05655554600003,
+      "log": "/kaggle/working/consumer_complaints_run/worker_logs/lstm.log",
+      "elapsed_seconds": 157.07270964500003,
+      "status": "complete"
+    },
+    {
+      "model": "gru",
+      "assigned_gpu": "1",
+      "started_seconds": 263.1313971870002,
+      "log": "/kaggle/working/consumer_complaints_run/worker_logs/gru.log",
+      "elapsed_seconds": 153.071338448,
+      "status": "complete"
+    }
+  ],
+  "effective_transformer_batch_size": 32,
+  "note": "No model is replicated across GPUs; batch sizes and learning rates retain their single-model meaning."
+}

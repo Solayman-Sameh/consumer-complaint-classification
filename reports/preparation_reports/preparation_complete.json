@@ -1,0 +1,41 @@
+{
+  "identity": {
+    "source_csv_sha256": "a120ac8450cb3839bf0085bbae68f7c0f3b5351302cafd0bc85ae27a251010b4",
+    "config_sha256": "ec93999d07567f38e55d61f7af81b4a2111ec5b4cf51b6ccb738b3a5ec4183ef",
+    "reference_sha256": "60c6d4d76f241f9a02689a9ab7ce6c0958373b5790698fd570f521b74a8a4bf1",
+    "code": {
+      "preparation.py": "7b77d928adcb9ae55789b561c2b0dffed654e8faf966e723fc24a20ef666e35f",
+      "bootstrap.py": "a3986848c80335b3302e310e12510df609c7b84a5ee3642dae1e22d02334a0b9",
+      "text.py": "9e2094ed22a8e2a45f62583c66bfd541cd5f55d5da93e67735bf2c918b93c0c6"
+    },
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scikit-learn": "1.8.0",
+      "transformers": "4.57.1",
+      "tokenizers": "0.22.2"
+    }
+  },
+  "reference": {
+    "status": "passed",
+    "differences": {},
+    "method": "Canonical record CSV, vocabulary, NPY array bytes and audited counts",
+    "reference_source_csv_sha256": "a120ac8450cb3839bf0085bbae68f7c0f3b5351302cafd0bc85ae27a251010b4"
+  },
+  "independent_verification": {
+    "status": "passed",
+    "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+    "records": 123978,
+    "checks": [
+      "Every prepared file checksum",
+      "Array shapes, padding and label mapping",
+      "All five classes in every split",
+      "No source/recurrent/truncated-input overlap between splits",
+      "Vocabulary exactly reproduced from training only",
+      "Class weights exactly reproduced from training only",
+      "256 sampled records independently re-tokenized",
+      "All encoded-input fingerprints independently recomputed"
+    ],
+    "sampled_records_reencoded": 256
+  }
+}

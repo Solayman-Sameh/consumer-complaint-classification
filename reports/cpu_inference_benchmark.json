@@ -1,0 +1,13 @@
+{
+  "device": "cpu",
+  "batch_size": 1,
+  "warmup_calls": 3,
+  "measured_calls": 30,
+  "median_ms": 81.06894299999112,
+  "p95_ms": 139.30532874981054,
+  "includes_preprocessing_and_tokenization": true,
+  "threads": 2,
+  "recurrent_max_length": 256,
+  "transformer_max_length": 256,
+  "validation_reload_max_probability_difference": 4.172325134277344e-07
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "cells": 40,
+  "code_cells": 21,
+  "execution_engine": "Headless IPython in a fresh Python process (Jupyter socket launch blocked by Windows ACLs)",
+  "executed_code_cells": 21,
+  "inline_chart_outputs": 8,
+  "executed_from_independent_folder": true,
+  "model_training_performed": false,
+  "data_downloads_performed": false,
+  "notebook_bytes": 1548537,
+  "html_bytes": 1818201
+}

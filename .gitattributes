@@ -1,0 +1,8 @@
+* text=auto eol=lf
+deployment_model/** -text
+*.npz binary
+*.gz binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+deployment_model/*.md text eol=lf

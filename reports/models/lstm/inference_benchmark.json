@@ -1,0 +1,13 @@
+{
+  "device": "cuda:0",
+  "batch_size": 1,
+  "median_ms": 1.6615414998568667,
+  "p95_ms": 3.0115894499886053,
+  "warmup_calls": 3,
+  "measured_calls": 30,
+  "includes_host_to_device_transfer": true,
+  "includes_tokenization": false,
+  "inputs": "Same first eight validation records; each model's prepared tokenization",
+  "recurrent_max_length": 256,
+  "transformer_max_length": 256
+}

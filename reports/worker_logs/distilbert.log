@@ -1,0 +1,8 @@
+Worker distilbert: assigned GPU 0; visible device cuda:0 = Tesla T4
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert/distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+
+distilbert pilot: 0.140 s/batch; about 43.3 min for 3 training epochs, excluding validation/downloads.
+distilbert epoch 1: train loss 0.6118; val loss 0.4337; val macro F1 0.8357
+distilbert epoch 2: train loss 0.3705; val loss 0.4058; val macro F1 0.8366
+distilbert epoch 3: train loss 0.2968; val loss 0.4242; val macro F1 0.8428

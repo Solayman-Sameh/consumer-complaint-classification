@@ -1,0 +1,8 @@
+Worker rnn: assigned GPU 1; visible device cuda:0 = Tesla T4
+
+rnn pilot: 0.020 s/batch; about 2.0 min for 8 training epochs, excluding validation/downloads.
+rnn epoch 1: train loss 1.1495; val loss 0.9041; val macro F1 0.6725
+rnn epoch 2: train loss 0.8940; val loss 0.8882; val macro F1 0.6720
+rnn epoch 3: train loss 0.8101; val loss 0.7713; val macro F1 0.7318
+rnn epoch 4: train loss 0.7760; val loss 0.7814; val macro F1 0.7283
+rnn epoch 5: train loss 0.7273; val loss 0.7662; val macro F1 0.7313

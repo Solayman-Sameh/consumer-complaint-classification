@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "model": "distilbert",
+  "training_status": "trained",
+  "verification_only": false,
+  "preparation_id": "4e3ead3e2e205566cb08dfb02fb7138ccc924c580f462808e3db5bc665f19b04",
+  "max_input_characters": 20000,
+  "probabilities_are_calibrated": false,
+  "source_text_was_preprocessed_upstream": true,
+  "file_sha256": {
+    "labels.json": "dcb480b5bbcaa27b5dae3f12d3d702f7cf397e130eee62cbbe49c0786dd88298",
+    "model/config.json": "f40db5d49a92a16bfc003d63a71aedf2f545cdc3459e453eebe5fb686fdd34a4",
+    "model/model.safetensors": "90a674896ce8d16c5de9f91ad996538c457d3480fb4966a689a2d79e3bd83f12",
+    "model/special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "model/tokenizer.json": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+    "model/tokenizer_config.json": "a3c9410f27554c6e26af779fd147e536c6c5f9e5cb0e6b8f38ddaa25e1b0f6af",
+    "model/vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+    "preprocessing.json": "adb4b4370aa2a3ae098ba40d1fedb0453fed1c043cf6d6b2e1453758e566b5b9",
+    "selection.json": "5d2c9b8218651ff037c1b5c0e41fc8edec72d0feb5a449e86b4e223509a87fde"
+  }
+}
